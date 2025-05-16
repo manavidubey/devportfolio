@@ -120,7 +120,7 @@ const App = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <img src="/src/assets/memo.gif" alt="Memoji Animation" />
+            <img src="/public/assets/memo.gif" alt="Memoji Animation" />
           </motion.div>
           <motion.div 
             className="home-text"
