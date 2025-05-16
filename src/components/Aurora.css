@@ -1,0 +1,18 @@
+.aurora-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background: #000203;
+  background: linear-gradient(90deg, rgba(0, 2, 3, 1) 0%, rgba(33, 5, 36, 1) 64%, rgba(199, 87, 128, 1) 91%, rgba(237, 124, 83, 1) 100%);
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.aurora-container canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+} 
