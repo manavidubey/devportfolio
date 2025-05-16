@@ -120,7 +120,7 @@ const App = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <img src="/public/assets/memo.gif" alt="Memoji Animation" />
+            <img src="/assets/memo.gif" alt="Memoji Animation" />
           </motion.div>
           <motion.div 
             className="home-text"
@@ -137,7 +137,7 @@ const App = () => {
               Hi, I'm Manavi Dubey!
             </motion.h1>
             <TypeWriter 
-              text="I'm a final-year Computer Engineering student at VIT, passionate about AI, Software Development, and solving sreal-world problems through technology."
+              text="I'm a final-year Computer Engineering student at VIT, passionate about AI, Software Development, and solving real-world problems through technology."
               delay={30}
               className="subtitle"
             />
@@ -147,7 +147,7 @@ const App = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.8 }}
             >
-              <a className="btn primary" href="/src/assets/ResumeManavi.pdf" target="_blank">View Resume</a>
+              <a className="btn primary" href="/assets/ResumeManavi.pdf" target="_blank">View Resume</a>
               <a className="btn secondary" href="#projects">View Projects</a>
             </motion.div>
           </motion.div>
@@ -315,7 +315,7 @@ const App = () => {
 
       <section id="education" className="section">
         <div className="section-header">
-          <h2>Education</h2>
+        <h2>Education</h2>
           <p>My academic journey</p>
         </div>
         <div className="education-container">
@@ -374,7 +374,7 @@ const App = () => {
 
       <section id="projects" className="section">
         <div className="section-header">
-          <h2>Projects</h2>
+        <h2>Projects</h2>
           <p>Some of my recent work and personal projects</p>
         </div>
         <div className="projects-container">
